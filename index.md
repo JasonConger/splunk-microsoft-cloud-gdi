@@ -12,9 +12,7 @@
         data.addColumn('number', 'Weight');
         data.addRows([
             // Virtual Machines
-            ['Virtual Machine','VM Metrics', 1],
-            ['Virtual Machine','VM Metrics', 1],
-            ['Virtual Machine','VM Metrics', 1],
+            ['Virtual Machine','VM Metrics', 3],
             ['Virtual Machine','VM Metadata', 1],
 
             ['VM Metrics','Storage Table', 1],
@@ -74,7 +72,7 @@
 
             // Storage
             ['Storage Table','Splunk Add-on for Microsoft Cloud Services', 1],
-            ['Storage Blob','Splunk Add-on for Microsoft Cloud Services', 1],
+            ['Storage Blob','Splunk Add-on for Microsoft Cloud Services', 5],
 
             // Azure Metrics
             ['Azure Metrics','Microsoft Azure Add-on for Splunk', 1],
@@ -94,7 +92,7 @@
                 }
             },
             tooltip : {
-                trigger: 'none'
+                trigger: 'focus'
             }
         };
 
@@ -105,6 +103,7 @@
     </script>
   </head>
   <body>
+    <h1>Getting Azure data into Splunk</h1>
     <div id="sankey_basic" style="width: 1000px; height: 600px;"></div>
   </body>
 </html>
