@@ -1,0 +1,67 @@
+Add-on,Input,API,Permissions,Subscription Role (IAM),Notes
+Splunk Add-on for Microsoft Cloud Services,"Azure Storage Table
+Azure Storage Blob",N/A,"Access key  OR
+Shared Access Signature:
+  - Allowed services: Blob, Table
+  - Allowed resource types: Service, Container, Object
+  - Allowed permissions: Read, List",N/A,https://docs.microsoft.com/en-us/rest/api/storageservices/Constructing-an-Account-SAS
+,Azure Audit,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Azure Resource,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Azure Virtual Machine Metrics,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,,,,,
+Splunk Add-on for Microsoft Office 365,Management Activity,Office 365 Management APIs,"(Application) Read activity reports for your organization
+(Application) Read activity data for your organization
+(Application) Read service health information for your organization
+(Application) Read DLP policy events including detected sensitive data
+
+(Delegated) Read activity reports for your organization
+(Delegated) Read activity data for your organization
+(Delegated) Read service health information for your organization
+(Delegated) Read DLP policy events including detected sensitive data",Reader,"Click the ""Grant permissions"" button after creating/updating permissions.
+
+DLP is only necessary when using the DLP.All content type found in the Management Activity input."
+,Service Status,,,,
+,Service Message,,,,
+,,,,,
+Microsoft Office 365 Reporting Add-on for Splunk,Microsoft Office 365 Message Trace,N/A,The account you use to access the reports must have administrative permissions in the Office 365 organization. This report requires the user to be assigned to the View-Only Recipients role.,N/A,This add-on uses an API that only supports basic authentication (username and password).
+,,,,,https://docs.microsoft.com/en-us/previous-versions/office/developer/o365-enterprise-developers/jj984335(v=office.15)
+,,,,,
+Microsoft Azure Add-on for Splunk,Microsoft Azure Active Directory Sign-ins,Microsoft Graph,Read all audit log data,Security Reader,
+,,Windows Azure Active Directory,"(Application) Read directory data
+
+(Delegated) Read directory data",Security Reader,
+,Microsoft Azure Active Directory Users,Microsoft Graph,Read all audit log data,Security Reader,
+,,Windows Azure Active Directory,"(Application) Read directory data
+
+(Delegated) Read directory data",Security Reader,
+,Microsoft Azure Active Directory Audit,Microsoft Graph,Read all audit log data,Security Reader,
+,,Windows Azure Active Directory,"(Application) Read directory data
+
+(Delegated) Read directory data",Security Reader,
+,Event Hub (preview),,,,
+,Metrics (preview),,,,
+,Security Center,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Subscriptions,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Resource Groups,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Virtual Networks,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Compute,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Azure Billing and Consumption,Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Reader,https://docs.microsoft.com/en-us/rest/api/consumption/usagedetails/list
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Reader,
+,Azure Reservation Reccomendation,,,,
+,,,,,
+,Azure Resource Graph,,,,
+,,,,,
+,Azure Topology (automatic),Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Network contributor,"Alternatively, a custom role can be created that includes the following action:
+
+Microsoft.Network/networkWatchers/topology/action"
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Network contributor,
+,Azure Topology (manual),Windows Azure Service Management API,(Delegated) Access Azure Service Management as organization users,Network contributor,
+,,Windows Azure Active Directory,(Delegated) Sign in and read user profile,Network contributor,
