@@ -16,7 +16,7 @@
             ['Virtual Machine','VM Metadata', 1],
 
             ['VM Metrics','Storage Table', 1],
-            ['VM Metrics','Azure Metrics', 1],
+            ['VM Metrics','Azure Monitor Metrics', 1],
             ['VM Metrics','Universal Forwarder', 1],
             ['VM Metadata','Microsoft Azure Add-on for Splunk', 1],
 
@@ -32,9 +32,11 @@
             ['ASC Tasks','Microsoft Azure Add-on for Splunk', 1],
             
             // Azure Monitor
-            ['Azure Monitor Metrics','Microsoft Azure Add-on for Splunk',1],
-            ['Azure Monitor Diagnostics','Event Hub',1],
-            ['Azure Monitor Activity Log','Event Hub',1],
+            ['Azure Monitor','Azure Monitor Metrics',1],
+            ['Azure Monitor','Diagnostic Logs',1],
+            ['Azure Monitor','Activity Log',1],
+            
+            ['Azure Monitor Metrics','Microsoft Azure Add-on for Splunk', 1],
 
             // Azure Websites
             ['Azure Websites','Website Application Logs', 1],
@@ -78,9 +80,6 @@
             // Storage
             ['Storage Table','Splunk Add-on for Microsoft Cloud Services', 1],
             ['Storage Blob','Splunk Add-on for Microsoft Cloud Services', 5],
-
-            // Azure Metrics
-            ['Azure Metrics','Microsoft Azure Add-on for Splunk', 1],
 
             // Event Hub
             ['Event Hub','Microsoft Azure Add-on for Splunk', 1],
