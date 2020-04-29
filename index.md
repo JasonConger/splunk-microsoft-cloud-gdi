@@ -30,6 +30,11 @@
 
             ['ASC Alerts','Microsoft Azure Add-on for Splunk', 1],
             ['ASC Tasks','Microsoft Azure Add-on for Splunk', 1],
+            
+            // Azure Monitor
+            ['Azure Monitor Metrics','Microsoft Azure Add-on for Splunk',1],
+            ['Azure Monitor Diagnostics','Event Hub',1],
+            ['Azure Monitor Activity Log','Event Hub',1],
 
             // Azure Websites
             ['Azure Websites','Website Application Logs', 1],
