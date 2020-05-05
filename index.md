@@ -16,7 +16,7 @@
             ['Virtual Machine','VM Metadata', 1],
 
             ['VM Metrics','Storage Table', 1],
-            ['VM Metrics','Azure Monitor Metrics', 1],
+            ['VM Metrics','Azure Monitor Metrics', 2],
             ['VM Metrics','Universal Forwarder', 1],
             ['VM Metadata','Microsoft Azure Add-on for Splunk', 1],
 
@@ -32,7 +32,7 @@
             ['ASC Tasks','Microsoft Azure Add-on for Splunk', 1],
             
             // Azure Monitor
-            ['Azure Monitor','Azure Monitor Metrics',1],
+            ['Azure Monitor','Azure Monitor Metrics',2],
             ['Azure Monitor','Azure Monitor Diagnostic Logs',1],
             ['Azure Monitor','Azure Monitor Activity Log',1],
             
