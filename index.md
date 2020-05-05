@@ -64,7 +64,7 @@
             // Azure AD
             ['Azure Active Directory','AAD Users', 1],
             ['Azure Active Directory','AAD Sign-ins', 2],
-            ['Azure Active Directory','AAD Audit', 1],
+            ['Azure Active Directory','AAD Audit', 2],
 
             ['AAD Users','Microsoft Azure Add-on for Splunk', 1],
             ['AAD Sign-ins','Microsoft Azure Add-on for Splunk', 1],
