@@ -36,7 +36,7 @@
             ['Azure Monitor','Azure Monitor Diagnostic Logs',1],
             ['Azure Monitor','Azure Monitor Activity Log',1],
             
-            ['Azure Monitor Metrics','Microsoft Azure Add-on for Splunk', 1],
+            ['Azure Monitor Metrics','Microsoft Azure Add-on for Splunk', 2],
             ['Azure Monitor Diagnostic Logs','Event Hub', 1],
             ['Azure Monitor Activity Log','Event Hub', 1],
 
