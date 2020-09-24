@@ -104,6 +104,22 @@
 
         // Instantiates and draws our chart, passing in some options.
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        google.visualization.events.addListener(chart, 'select', function() {
+          var sel = chart.getSelection();
+          if (sel.length) {
+            switch (sel[0].name) {
+              case 'Universal Forwarder':
+                window.open('https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Abouttheuniversalforwarder');
+                break;
+              case 'Microsoft Azure Add-on for Splunk':
+                window.open('https://splunkbase.splunk.com/app/3757/');
+                break;
+              case 'Splunk Add-on for Microsoft Cloud Services':
+                window.open('https://splunkbase.splunk.com/app/3110/');
+                break;
+            }
+          }
+        });
         chart.draw(data, options);
       }
     </script>
