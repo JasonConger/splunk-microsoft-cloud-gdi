@@ -84,10 +84,10 @@
             ['Storage Blob','Splunk Add-on for Microsoft Cloud Services', 5],
 
             // Event Hub
-            ['Event Hub','Microsoft Azure Add-on for Splunk', 2],
-            ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 2],
-            ['Event Hub','Azure Functions', 2],
-            ['Event Hub','Data Stream Processor', 2]
+            ['Event Hub','Microsoft Azure Add-on for Splunk', 1],
+            ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 1],
+            ['Event Hub','Azure Functions', 1],
+            ['Event Hub','Data Stream Processor', 1]
 
         ]);
 
