@@ -85,6 +85,7 @@
 
             // Event Hub
             ['Event Hub','Microsoft Azure Add-on for Splunk', 2],
+            ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 2],
             ['Event Hub','Azure Functions', 2],
             ['Event Hub','Data Stream Processor', 2]
 
