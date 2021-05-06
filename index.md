@@ -65,9 +65,13 @@
             ['Azure Active Directory','AAD Users', 1],
             ['Azure Active Directory','AAD Sign-ins', 2],
             ['Azure Active Directory','AAD Audit', 2],
+            ['Azure Active Directory','AAD Devices', 1],
+            ['Azure Active Directory','AAD Risk Detection', 1],
 
             ['AAD Users','Microsoft Azure Add-on for Splunk', 1],
             ['AAD Sign-ins','Microsoft Azure Add-on for Splunk', 1],
+            ['AAD Devices','Microsoft Azure Add-on for Splunk', 1],
+            ['AAD Risk Detection','Microsoft Azure Add-on for Splunk', 1],
             ['AAD Sign-ins','Event Hub', 1],
             ['AAD Audit','Microsoft Azure Add-on for Splunk', 1],
             ['AAD Audit','Event Hub', 1],
