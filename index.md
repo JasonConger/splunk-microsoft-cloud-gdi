@@ -118,6 +118,9 @@
               case 'Splunk Add-on for Microsoft Cloud Services':
                 window.open('https://splunkbase.splunk.com/app/3110/');
                 break;
+              case 'Azure Functions':
+                window.open('https://github.com/splunk/azure-functions-splunk/tree/master/event-hubs-hec');
+                break;
             }
           }
         });
