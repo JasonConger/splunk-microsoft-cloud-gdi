@@ -91,7 +91,7 @@
             ['Event Hub','Microsoft Azure Add-on for Splunk', 2],
             ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 2],
             ['Event Hub','Azure Functions', 1],
-            ['Event Hub','Data Stream Processor', 1]
+            ['Event Hub','Splunk Data Manager (cloud only)', 1]
 
         ]);
 
@@ -124,6 +124,9 @@
                 break;
               case 'Azure Functions':
                 window.open('https://github.com/splunk/azure-functions-splunk/tree/master/event-hubs-hec');
+                break;
+              case 'Splunk Data Manager (cloud only)':
+                window.open('https://docs.splunk.com/Documentation/DM');
                 break;
             }
           }
