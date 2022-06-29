@@ -18,7 +18,7 @@
             ['VM Metrics','Storage Table', 1],
             ['VM Metrics','Azure Monitor Metrics', 1],
             ['VM Metrics','Universal Forwarder', 1],
-            ['VM Metadata','Microsoft Azure Add-on for Splunk', 1],
+            ['VM Metadata','Splunk Add-on for Microsoft Azure', 1],
 
             // Diagnostic Logs
             ['Diagnostic Logs','Storage Blob', 1],
@@ -28,15 +28,15 @@
             ['Azure Security Center','ASC Alerts', 1],
             ['Azure Security Center','ASC Tasks', 1],
 
-            ['ASC Alerts','Microsoft Azure Add-on for Splunk', 1],
-            ['ASC Tasks','Microsoft Azure Add-on for Splunk', 1],
+            ['ASC Alerts','Splunk Add-on for Microsoft Azure', 1],
+            ['ASC Tasks','Splunk Add-on for Microsoft Azure', 1],
             
             // Azure Monitor
             ['Azure Monitor','Azure Monitor Metrics',1],
             ['Azure Monitor','Azure Monitor Diagnostic Logs',1],
             ['Azure Monitor','Azure Monitor Activity Log',1],
             
-            ['Azure Monitor Metrics','Microsoft Azure Add-on for Splunk', 2],
+            ['Azure Monitor Metrics','Splunk Add-on for Microsoft Azure', 2],
             ['Azure Monitor Diagnostic Logs','Event Hub', 1],
             ['Azure Monitor Activity Log','Event Hub', 1],
 
@@ -59,8 +59,8 @@
             ['Cost & Billing','Billing Details', 1],
             ['Cost & Billing','Reservation Recommendations', 1],
 
-            ['Billing Details','Microsoft Azure Add-on for Splunk', 1],
-            ['Reservation Recommendations','Microsoft Azure Add-on for Splunk', 1],
+            ['Billing Details','Splunk Add-on for Microsoft Azure', 1],
+            ['Reservation Recommendations','Splunk Add-on for Microsoft Azure', 1],
 
             // Azure AD
             ['Azure Active Directory','AAD Users', 1],
@@ -69,12 +69,12 @@
             ['Azure Active Directory','AAD Devices', 1],
             ['Azure Active Directory','AAD Risk Detection', 1],
 
-            ['AAD Users','Microsoft Azure Add-on for Splunk', 1],
-            ['AAD Sign-ins','Microsoft Azure Add-on for Splunk', 1],
-            ['AAD Devices','Microsoft Azure Add-on for Splunk', 1],
-            ['AAD Risk Detection','Microsoft Azure Add-on for Splunk', 1],
+            ['AAD Users','Splunk Add-on for Microsoft Azure', 1],
+            ['AAD Sign-ins','Splunk Add-on for Microsoft Azure', 1],
+            ['AAD Devices','Splunk Add-on for Microsoft Azure', 1],
+            ['AAD Risk Detection','Splunk Add-on for Microsoft Azure', 1],
             ['AAD Sign-ins','Event Hub', 1],
-            ['AAD Audit','Microsoft Azure Add-on for Splunk', 1],
+            ['AAD Audit','Splunk Add-on for Microsoft Azure', 1],
             ['AAD Audit','Event Hub', 1],
 
             // Network Watcher
@@ -82,14 +82,14 @@
             ['Network Watcher','Topology', 1],
 
             ['Network Security Group Flow Logs','Storage Blob', 1],
-            ['Topology','Microsoft Azure Add-on for Splunk', 1],
+            ['Topology','Splunk Add-on for Microsoft Azure', 1],
 
             // Storage
             ['Storage Table','Splunk Add-on for Microsoft Cloud Services', 1],
             ['Storage Blob','Splunk Add-on for Microsoft Cloud Services', 5],
 
             // Event Hub
-            ['Event Hub','Microsoft Azure Add-on for Splunk', 2],
+            ['Event Hub','Splunk Add-on for Microsoft Azure', 2],
             ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 2],
             ['Event Hub','Azure Functions', 1],
             ['Event Hub','Splunk Data Manager (cloud only)', 1]
@@ -117,7 +117,7 @@
               case 'Universal Forwarder':
                 window.open('https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Abouttheuniversalforwarder');
                 break;
-              case 'Microsoft Azure Add-on for Splunk':
+              case 'Splunk Add-on for Microsoft Azure':
                 window.open('https://splunkbase.splunk.com/app/3757/');
                 break;
               case 'Splunk Add-on for Microsoft Cloud Services':
