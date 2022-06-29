@@ -49,6 +49,7 @@
 
             // Application Insights
             ['Application Insights','Storage Blob', 1],
+            ['Application Insights','Event Hub', 1],
 
             // Activity Log
             ['Activity Logs','Event Hub', 1],
