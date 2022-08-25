@@ -19,6 +19,7 @@
             ['VM Metrics','Azure Monitor Metrics', 1],
             ['VM Metrics','Universal Forwarder', 1],
             ['VM Metrics','Event Hub', 1],
+            ['VM Logs','Event Hub', 1],
             ['VM Metadata','Splunk Add-on for Microsoft Azure', 1],
 
             // Diagnostic Logs
