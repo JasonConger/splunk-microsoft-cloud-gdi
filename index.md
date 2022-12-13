@@ -54,6 +54,7 @@
             // Activity Log
             ['Activity Logs','Event Hub', 1],
             ['Activity Logs','Splunk Add-on for Microsoft Cloud Services', 1],
+            ['Activity Logs','Splunk Data Manager (cloud only)', 1],
 
             // Cost and Consumption
             ['Cost & Billing','Billing Details', 1],
@@ -71,10 +72,12 @@
 
             ['AAD Users','Splunk Add-on for Microsoft Azure', 1],
             ['AAD Sign-ins','Splunk Add-on for Microsoft Azure', 1],
+            ['AAD Sign-ins','Splunk Data Manager (cloud only)', 1],
             ['AAD Devices','Splunk Add-on for Microsoft Azure', 1],
             ['AAD Risk Detection','Splunk Add-on for Microsoft Azure', 1],
             ['AAD Sign-ins','Event Hub', 1],
             ['AAD Audit','Splunk Add-on for Microsoft Azure', 1],
+            ['AAD Audit','Splunk Data Manager (cloud only)', 1],
             ['AAD Audit','Event Hub', 1],
 
             // Network Watcher
@@ -91,7 +94,6 @@
             // Event Hub
             ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 3],
             ['Event Hub','Azure Functions', 2],
-            ['Event Hub','Splunk Data Manager (cloud only)', 2]
 
         ]);
 
