@@ -93,7 +93,7 @@
 
             // Event Hub
             ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 3],
-            ['Event Hub','Azure Functions', 2],
+            ['Event Hub','Azure Functions', 3],
 
         ]);
 
