@@ -65,8 +65,8 @@
 
             // Azure AD
             ['Azure Active Directory','AAD Users', 1],
-            ['Azure Active Directory','AAD Sign-ins', 2],
-            ['Azure Active Directory','AAD Audit', 2],
+            ['Azure Active Directory','AAD Sign-ins', 3],
+            ['Azure Active Directory','AAD Audit', 3],
             ['Azure Active Directory','AAD Devices', 1],
             ['Azure Active Directory','AAD Risk Detection', 1],
 
