@@ -202,7 +202,7 @@
     <h2>Microsoft Azure</h2>
     <div id="azure_sankey" style="width: 1000px; height: 600px;"></div>
     
-    <h2>Defender</h2>
-    <div id="defender_sankey" style="width: 1000px; height: 600px;"></div>
+    <h2>Microsoft Defender</h2>
+    <div id="defender_sankey" style="width: 1000px;"></div>
   </body>
 </html>
