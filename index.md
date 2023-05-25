@@ -105,7 +105,7 @@
         defender_data.addRows([
             // Microsoft Defender 365
             ['Microsoft Defender 365','Incidents', 1],
-            ['Microsoft Defender 365','Advanced Hunting', 1],
+            ['Microsoft Defender 365','Advanced Hunting', 2],
       
             ['Incidents', 'Splunk Add-on for Microsoft Security', 1],
       
