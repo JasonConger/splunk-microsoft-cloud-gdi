@@ -103,11 +103,16 @@
         defender_data.addColumn('number', 'Weight');
       
         defender_data.addRows([
-            // Defender 365
+            // Microsoft Defender 365
             ['Microsoft Defender 365','Incidents', 1],
             ['Microsoft Defender 365','Advanced Hunting', 1],
       
             ['Incidents', 'Splunk Add-on for Microsoft Security', 1],
+      
+            // Microsoft Defender for Endpoint
+            ['Microsoft Defender for Endpoint','Alerts',1];
+      
+            ['Alerts', 'Splunk Add-on for Microsoft Security', 1],
       
             // Advanced Hunting
             ['Advanced Hunting','Event Hub', 1],
