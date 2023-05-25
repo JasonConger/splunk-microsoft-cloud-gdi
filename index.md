@@ -110,9 +110,12 @@
             ['Incidents', 'Splunk Add-on for Microsoft Security', 1],
       
             // Microsoft Defender for Endpoint
-            ['Microsoft Defender for Endpoint','Alerts',1];
+            ['Microsoft Defender for Endpoint','Alerts',1],
       
             ['Alerts', 'Splunk Add-on for Microsoft Security', 1],
+      
+            // Microsoft Defender for Office 365
+            ['Microsoft Defender for Office 365', 'Splunk Add-on for Microsoft Office 365', 1],
       
             // Advanced Hunting
             ['Advanced Hunting','Event Hub', 1],
@@ -174,6 +177,9 @@
                 break;
               case 'Splunk Add-on for Microsoft Cloud Services':
                 window.open('https://splunkbase.splunk.com/app/3110/');
+                break;
+              case 'Splunk Add-on for Microsoft Office 365':
+                window.open('https://splunkbase.splunk.com/app/4055/');
                 break;
             }
           }
