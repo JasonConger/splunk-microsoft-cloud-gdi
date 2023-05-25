@@ -96,6 +96,25 @@
             ['Event Hub','Azure Functions', 3],
 
         ]);
+      
+        var defender_data = new google.visualization.DataTable();
+        defender_data.addColumn('string', 'Resource');
+        defender_data.addColumn('string', 'Data Source');
+        defender_data.addColumn('number', 'Weight');
+      
+        azure_data.addRows([
+            // Defender 365
+            ['Microsoft Defender 365','Incidents', 1],
+            ['Microsoft Defender 365','Advanced Hunting', 1],
+      
+            // Advanced Hunting
+            ['Advanced Hunting','Event Hub', 1],
+            ['Advanced Hunting','Splunk Add-on for Microsoft Security', 1],
+      
+            // Event Hub
+            ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 1]
+      
+        ]);
 
         // Sets chart options.
         var options = {
@@ -111,6 +130,8 @@
 
         // Instantiates and draws our chart, passing in some options.
         var azure_chart = new google.visualization.Sankey(document.getElementById('azure_sankey'));
+        var defender_chart = new google.visualization.Sankey(document.getElementById('defender_sankey'));
+      
         google.visualization.events.addListener(azure_chart, 'select', function() {
           var sel = azure_chart.getSelection();
           if (sel.length) {
@@ -133,7 +154,26 @@
             }
           }
         });
+      
+        google.visualization.events.addListener(defender_chart, 'select', function() {
+          var sel = defender_chart.getSelection();
+          if (sel.length) {
+            switch (sel[0].name) {
+              case 'Splunk Add-on for Microsoft Security':
+                window.open('https://splunkbase.splunk.com/app/6207');
+                break;
+              case 'Splunk Add-on for Microsoft Azure':
+                window.open('https://splunkbase.splunk.com/app/3757/');
+                break;
+              case 'Splunk Add-on for Microsoft Cloud Services':
+                window.open('https://splunkbase.splunk.com/app/3110/');
+                break;
+            }
+          }
+        });
+      
         azure_chart.draw(azure_data, options);
+        defender_chart.draw(defender_data, options);
       }
     </script>
   </head>
