@@ -6,11 +6,11 @@
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Resource');
-        data.addColumn('string', 'Data Source');
-        data.addColumn('number', 'Weight');
-        data.addRows([
+        var azure_data = new google.visualization.DataTable();
+        azure_data.addColumn('string', 'Resource');
+        azure_data.addColumn('string', 'Data Source');
+        azure_data.addColumn('number', 'Weight');
+        azure_data.addRows([
             // Virtual Machines
             ['Virtual Machine','VM Metrics', 3],
             ['Virtual Machine','VM Metadata', 1],
@@ -110,9 +110,9 @@
         };
 
         // Instantiates and draws our chart, passing in some options.
-        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
-        google.visualization.events.addListener(chart, 'select', function() {
-          var sel = chart.getSelection();
+        var azure_chart = new google.visualization.Sankey(document.getElementById('azure_sankey'));
+        google.visualization.events.addListener(azure_chart, 'select', function() {
+          var sel = azure_chart.getSelection();
           if (sel.length) {
             switch (sel[0].name) {
               case 'Universal Forwarder':
@@ -133,12 +133,13 @@
             }
           }
         });
-        chart.draw(data, options);
+        azure_chart.draw(azure_data, options);
       }
     </script>
   </head>
   <body>
     <h1>Getting Azure data into Splunk</h1>
     <div id="sankey_basic" style="width: 1000px; height: 600px;"></div>
+    <div id="sankey_defender" style="width: 1000px; height: 600px;></div>
   </body>
 </html>
