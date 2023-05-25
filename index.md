@@ -107,6 +107,8 @@
             ['Microsoft Defender 365','Incidents', 1],
             ['Microsoft Defender 365','Advanced Hunting', 1],
       
+            ['Incidents', 'Splunk Add-on for Microsoft Security', 1],
+      
             // Advanced Hunting
             ['Advanced Hunting','Event Hub', 1],
             ['Advanced Hunting','Splunk Add-on for Microsoft Security', 1],
