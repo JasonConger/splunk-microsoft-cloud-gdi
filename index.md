@@ -139,7 +139,7 @@
   </head>
   <body>
     <h1>Getting Azure data into Splunk</h1>
-    <div id="sankey_basic" style="width: 1000px; height: 600px;"></div>
-    <div id="sankey_defender" style="width: 1000px; height: 600px;></div>
+    <div id="azure_sankey" style="width: 1000px; height: 600px;"></div>
+    <div id="defender_sankey" style="width: 1000px; height: 600px;"></div>
   </body>
 </html>
