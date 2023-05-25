@@ -102,7 +102,7 @@
         defender_data.addColumn('string', 'Data Source');
         defender_data.addColumn('number', 'Weight');
       
-        azure_data.addRows([
+        defender_data.addRows([
             // Defender 365
             ['Microsoft Defender 365','Incidents', 1],
             ['Microsoft Defender 365','Advanced Hunting', 1],
