@@ -120,6 +120,10 @@
             // Microsoft Defender for Cloud Apps
             ['Microsoft Defender for Cloud Apps', 'Splunk Add-on for Microsoft Office 365', 1],
       
+            // Microsoft Defender for Cloud
+            ['Microsoft Defender for Cloud','Splunk Add-on for Microsoft Azure', 1],
+            ['Microsoft Defender for Cloud','Event Hub', 1],
+      
             // Advanced Hunting
             ['Advanced Hunting','Event Hub', 1],
             ['Advanced Hunting','Splunk Add-on for Microsoft Security', 1],
