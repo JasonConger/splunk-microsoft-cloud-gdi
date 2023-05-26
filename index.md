@@ -13,7 +13,7 @@
         azure_data.addRows([
             // Virtual Machines
             ['Virtual Machine','VM Metrics', 3],
-            ['Virtual Machine','VM Metadata', 1],
+            ['Virtual Machine','VM Metadata', 2],
 
             ['VM Metrics','Storage Table', 1],
             ['VM Metrics','Azure Monitor Metrics', 1],
@@ -59,8 +59,8 @@
             ['Activity Logs','Splunk Data Manager (cloud only)', 1],
 
             // Cost and Consumption
-            ['Cost & Billing','Billing Details', 1],
-            ['Cost & Billing','Reservation Recommendations', 1],
+            ['Cost & Billing','Billing Details', 2],
+            ['Cost & Billing','Reservation Recommendations', 2],
 
             ['Billing Details','Splunk Add-on for Microsoft Azure', 1],
             ['Billing Details','Splunk Add-on for Microsoft Cloud Services', 1],
