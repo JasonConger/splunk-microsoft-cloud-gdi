@@ -19,6 +19,7 @@
             ['VM Metrics','Azure Monitor Metrics', 1],
             ['VM Metrics','Universal Forwarder', 1],
             ['VM Metadata','Splunk Add-on for Microsoft Azure', 1],
+            ['VM Metadata','Splunk Add-on for Microsoft Cloud Services', 1],
 
             // Diagnostic Logs
             ['Diagnostic Logs','Storage Blob', 1],
@@ -36,7 +37,8 @@
             ['Azure Monitor','Azure Monitor Diagnostic Logs',1],
             ['Azure Monitor','Azure Monitor Activity Log',1],
             
-            ['Azure Monitor Metrics','Splunk Add-on for Microsoft Azure', 2],
+            ['Azure Monitor Metrics','Splunk Add-on for Microsoft Azure', 1],
+            ['Azure Monitor Metrics','Splunk Add-on for Microsoft Cloud Services', 1],
             ['Azure Monitor Diagnostic Logs','Event Hub', 1],
             ['Azure Monitor Activity Log','Event Hub', 1],
 
@@ -61,7 +63,9 @@
             ['Cost & Billing','Reservation Recommendations', 1],
 
             ['Billing Details','Splunk Add-on for Microsoft Azure', 1],
+            ['Billing Details','Splunk Add-on for Microsoft Cloud Services', 1],
             ['Reservation Recommendations','Splunk Add-on for Microsoft Azure', 1],
+            ['Reservation Recommendations','Splunk Add-on for Microsoft Cloud Services', 1],
 
             // Azure AD
             ['Azure Active Directory','AAD Users', 1],
