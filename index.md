@@ -25,8 +25,8 @@
             ['Diagnostic Logs','Event Hub', 1],
 
             // Security Center
-            ['Azure Security Center','ASC Alerts', 1],
-            ['Azure Security Center','ASC Tasks', 1],
+            ['Microsoft Defender for Cloud','ASC Alerts', 1],
+            ['Microsoft Defender for Cloud','ASC Tasks', 1],
 
             ['ASC Alerts','Splunk Add-on for Microsoft Azure', 1],
             ['ASC Tasks','Splunk Add-on for Microsoft Azure', 1],
