@@ -129,7 +129,7 @@
             ['Advanced Hunting','Splunk Add-on for Microsoft Security', 1],
       
             // Event Hub
-            ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 1]
+            ['Event Hub','Splunk Add-on for Microsoft Cloud Services', 2]
       
         ]);
 
