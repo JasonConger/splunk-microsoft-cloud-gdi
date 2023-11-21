@@ -10,129 +10,129 @@
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.1/dist/extensions/sticky-header/bootstrap-table-sticky-header.css">
   </head>
   <body>
-    <div class="table-responsive">
-      <table data-toggle="table" class="table table-bordered table-hover">
-        <thead class="table-light" class="sticky-head">
-          <tr>
-            <th>Add-on</th>
-            <th>Input/Action</th>
-            <th>API</th>
-            <th>Permissions</th>
-            <th>Role (IAM)</th>
-            <th>Default Sourcetype(s) / Sources</th>
-            <th>Notes</th>
+    
+    <table data-toggle="table" class="table table-bordered table-hover">
+      <thead class="table-light" class="sticky-head">
+        <tr>
+          <th>Add-on</th>
+          <th>Input/Action</th>
+          <th>API</th>
+          <th>Permissions</th>
+          <th>Role (IAM)</th>
+          <th>Default Sourcetype(s) / Sources</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <th rowspan="7">Splunk Add-on for Microsoft Cloud Services</td>
+            <td>Azure Storage Table <br/>
+                Azure Storage Blob</td>
+            <td> N/A </td>
+            <td>
+              Access key  OR <br />
+              Shared Access Signature:
+              <ul>
+                <li>Allowed services: Blob, Table</li>
+                <li>Allowed resource types: Service, Container, Object</li>
+                <li>Allowed permissions: Read, List</li>
+              </ul>
+            </td>
+            <td> N/A </td>
+            <td>
+              mscs:storage:blob <br />
+              mscs:storage:blob:json <br />
+              mscs:storage:blob:xml <br />
+              mscs:storage:table
+            </td>
+            <td><a href="https://docs.microsoft.com/en-us/rest/api/storageservices/Constructing-an-Account-SAS" target="_blank">https://docs.microsoft.com/en-us/rest/api/storageservices/Constructing-an-Account-SAS</a></td>
           </tr>
-        </thead>
-        <tbody class="table-group-divider">
           <tr>
-            <th rowspan="7">Splunk Add-on for Microsoft Cloud Services</td>
-              <td>Azure Storage Table <br/>
-                  Azure Storage Blob</td>
-              <td> N/A </td>
-              <td>
-                Access key  OR <br />
-                Shared Access Signature:
-                <ul>
-                  <li>Allowed services: Blob, Table</li>
-                  <li>Allowed resource types: Service, Container, Object</li>
-                  <li>Allowed permissions: Read, List</li>
-                </ul>
-              </td>
-              <td> N/A </td>
-              <td>
-                mscs:storage:blob <br />
-                mscs:storage:blob:json <br />
-                mscs:storage:blob:xml <br />
-                mscs:storage:table
-              </td>
-              <td><a href="https://docs.microsoft.com/en-us/rest/api/storageservices/Constructing-an-Account-SAS" target="_blank">https://docs.microsoft.com/en-us/rest/api/storageservices/Constructing-an-Account-SAS</a></td>
-            </tr>
-            <tr>
-              <td>Azure Audit</td>
-              <td> N/A </td>
-              <td> N/A </td>
-              <td> (Subscription) Reader </td>
-              <td> mscs:azure:audit </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Azure Resource</td>
-              <td> N/A </td>
-              <td> N/A </td>
-              <td> (Subscription) Reader </td>
-              <td>
-                mscs:resource:virtualMachine <br />
-                mscs:resource:networkInterfaceCard <br />
-                mscs:resource:publicIPAddress <br />
-                mscs:resource:virtualNetwork <br />
-                mscs:resource:disk <br />
-                mscs:resource:image <br />
-                mscs:resource:snapshot <br />
-                mscs:resource:resourceGroup <br />
-                mscs:resource:subscriptions <br />
-                mscs:resource:security Group
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Event Hub</td>
-              <td> N/A </td>
-              <td>No API permissions are needed, but the Azure AD app registration needs to be assigned to the "Azure Event Hubs Data receiver" role on the Event Hub namespace</td>
-              <td>(Event Hub) Azure Event Hubs Data receiver</td>
-              <td>
-                mscs:azure:eventhub (generic event hub events) <br />
-                azure:monitor:aad <br />
-                azure:monitor:activity <br />
-                azure:monitor:resource
-              </td>
-              <td>
-                <a href="https://docs.splunk.com/Documentation/AddOns/released/MSCloudServices/Configureeventhubs" target="_blank">https://docs.splunk.com/Documentation/AddOns/released/MSCloudServices/Configureeventhubs</a> <br />
-                Azure Active Directory events - Azure AD sign-ins and Azure AD audit <br />
-                Azure activity log events <br />
-                Azure resources - examples: Cosmos DB, Azure Data Share
-              </td>
-            </tr>
-            <tr>
-              <td> Metrics </td>
-              <td> N/A </td>
-              <td></td>
-              <td> (Subscription) Reader </td>
-              <td>
-                mscs:metrics <br />
-                mscs:metrics:events
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td> Azure KQL Log Analytics </td>
-              <td> Log Analytics API </td>
-              <td> (Application) Data.Read - Read Log Analytics data </td>
-              <td> N/A </td>
-              <td>
-                mscs:kql <br />
-                mscs:kql:stats
-              </td>
-            </tr>
-            <tr>
-              <td>Azure Consumption (Billing)</td>
-              <td> N/A </td>
-              <td></td>
-              <td> (Subscription) Reader </td>
-              <td>
-                mscs:consumption:billing <br />
-                mscs:consumption:reservation:recommendation
-              </td>
-              <td><a href="https://docs.microsoft.com/en-us/rest/api/consumption/usagedetails/list" target="_blank">https://docs.microsoft.com/en-us/rest/api/consumption/usagedetails/list</a></td>
-            </tr>
-  
-            <tr class="table-group-divider">
-              <th>
-                Splunk Add-on for Microsoft Azure
-              </th>
-            </tr>
-        </tbody>
-      </table>
-    </div>
+            <td>Azure Audit</td>
+            <td> N/A </td>
+            <td> N/A </td>
+            <td> (Subscription) Reader </td>
+            <td> mscs:azure:audit </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Azure Resource</td>
+            <td> N/A </td>
+            <td> N/A </td>
+            <td> (Subscription) Reader </td>
+            <td>
+              mscs:resource:virtualMachine <br />
+              mscs:resource:networkInterfaceCard <br />
+              mscs:resource:publicIPAddress <br />
+              mscs:resource:virtualNetwork <br />
+              mscs:resource:disk <br />
+              mscs:resource:image <br />
+              mscs:resource:snapshot <br />
+              mscs:resource:resourceGroup <br />
+              mscs:resource:subscriptions <br />
+              mscs:resource:security Group
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Event Hub</td>
+            <td> N/A </td>
+            <td>No API permissions are needed, but the Azure AD app registration needs to be assigned to the "Azure Event Hubs Data receiver" role on the Event Hub namespace</td>
+            <td>(Event Hub) Azure Event Hubs Data receiver</td>
+            <td>
+              mscs:azure:eventhub (generic event hub events) <br />
+              azure:monitor:aad <br />
+              azure:monitor:activity <br />
+              azure:monitor:resource
+            </td>
+            <td>
+              <a href="https://docs.splunk.com/Documentation/AddOns/released/MSCloudServices/Configureeventhubs" target="_blank">https://docs.splunk.com/Documentation/AddOns/released/MSCloudServices/Configureeventhubs</a> <br />
+              Azure Active Directory events - Azure AD sign-ins and Azure AD audit <br />
+              Azure activity log events <br />
+              Azure resources - examples: Cosmos DB, Azure Data Share
+            </td>
+          </tr>
+          <tr>
+            <td> Metrics </td>
+            <td> N/A </td>
+            <td></td>
+            <td> (Subscription) Reader </td>
+            <td>
+              mscs:metrics <br />
+              mscs:metrics:events
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td> Azure KQL Log Analytics </td>
+            <td> Log Analytics API </td>
+            <td> (Application) Data.Read - Read Log Analytics data </td>
+            <td> N/A </td>
+            <td>
+              mscs:kql <br />
+              mscs:kql:stats
+            </td>
+          </tr>
+          <tr>
+            <td>Azure Consumption (Billing)</td>
+            <td> N/A </td>
+            <td></td>
+            <td> (Subscription) Reader </td>
+            <td>
+              mscs:consumption:billing <br />
+              mscs:consumption:reservation:recommendation
+            </td>
+            <td><a href="https://docs.microsoft.com/en-us/rest/api/consumption/usagedetails/list" target="_blank">https://docs.microsoft.com/en-us/rest/api/consumption/usagedetails/list</a></td>
+          </tr>
+
+          <tr class="table-group-divider">
+            <th>
+              Splunk Add-on for Microsoft Azure
+            </th>
+          </tr>
+      </tbody>
+    </table>
+   
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
