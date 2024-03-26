@@ -120,9 +120,12 @@
       
             // Microsoft Defender for Office 365
             ['Microsoft Defender for Office 365', 'Splunk Add-on for Microsoft Office 365', 1],
+
+            // Microsoft 365 Cloud App Security
+            ['Microsoft 365 Cloud App Security', 'Splunk Add-on for Microsoft Office 365', 1],
       
             // Microsoft Defender for Cloud Apps
-            ['Microsoft Defender for Cloud Apps', 'Splunk Add-on for Microsoft Office 365', 1],
+            ['Microsoft Defender for Cloud Apps', 'Splunk Add-on for Microsoft Security', 1],
       
             // Microsoft Defender for Cloud
             ['Microsoft Defender for Cloud','Splunk Add-on for Microsoft Azure', 1],
