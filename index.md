@@ -211,5 +211,7 @@
     
     <h2>Microsoft Defender</h2>
     <div id="defender_sankey" style="width: 1000px;"></div>
+
+    <a href="https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365" target="_blank">What are the differences between Microsoft Defender for Cloud Apps and Microsoft 365 Cloud App Security?</a>
   </body>
 </html>
